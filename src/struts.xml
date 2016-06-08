@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="library" namespace="/" extends="struts-default">
+		<action name="login" class="com.library.action.LoginAction">
+		</action>
+		
+		<action name="logout" class="com.library.action.LogoutAction">
+		</action>
+		
+		<action name="register" class="com.library.action.RegisterAction">
+		</action>
+		
+		<action name="teacherLogin" class="com.library.teacherAction.TeacherLoginAction">
+		</action>
+		
+		<action name="addComment" class="com.library.userAction.AddCommentAction">
+		</action>
+		
+		<action name="addBook" class="com.library.userAction.AddBookAction">
+		</action>
+		
+		<action name="getUserInfo" class="com.library.userAction.GetUserInfoAction">
+			<result name="Success">/PersonalPage.jsp</result>
+			<result name="Fail">/Login.jsp</result>
+		</action>
+			
+		<action name="getAllBooks" class="com.library.userAction.GetAllBooksAction">
+			<result name="success">BookShow.jsp</result>
+			<result name="fail">ErrorPage.jsp</result>
+		</action>
+		
+		<action name="getBookDetail" class="com.library.userAction.GetBookDetailAction">
+			<result name="getSuccess">BookPage.jsp</result>
+		</action>
+		
+		<action name="applyBorrow" class="com.library.action.ApplyBorrowAction">
+		</action>
+		
+		<action name="applyReturn" class="com.library.action.ApplyReturnAction">
+		</action>
+		
+		<action name="checkLogin" class="com.library.userAction.checkLoginAction">
+		</action>
+		
+		<action name="getClassInfo" class="com.library.teacherAction.GetClassInfoAction">
+			<result name="Success">TeacherPage.jsp</result>
+		</action>
+		
+		<action name="getPushMsg" class="com.library.userAction.GetPushMsgAction">
+		</action>
+		
+		<action name="confirmBorrow" class="com.library.action.ConfirmBorrowAction">
+		</action>
+		
+		<action name="confirmReturn" class="com.library.action.ConfirmReturnAction">
+		</action>
+		
+		<action name="rejectBorrow" class="com.library.action.RejectBorrowAction">
+		</action>
+		
+		<action name="changePwd" class="com.library.userAction.ChangePwdAction">
+			<result name="Fail">index.jsp</result>
+		</action>
+		
+		<action name="changeStuPwd" class="com.library.teacherAction.ChangePwdAction">
+		</action>
+		
+		<action name="getChangeBookDetail" class="com.library.userAction.GetChangeBookDetailAction">
+		</action>
+		
+		<action name="modifyBook" class="com.library.userAction.ModifyBookAction">
+		</action>
+		
+		<action name="confirmGet" class="com.library.userAction.ConfirmGetAction">
+		</action>
+		
+		<action name="checkEmail" class="com.library.userAction.CheckEmailAction">
+			<result name="success">success.jsp</result>
+			<result name="fail">ErrorPage.jsp</result>
+		</action>
+		
+		<action name="getCheckApply" class="com.library.userAction.GetCheckApplyAction">
+		</action>
+		
+	</package>
+
+</struts>    

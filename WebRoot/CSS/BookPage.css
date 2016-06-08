@@ -1,0 +1,34 @@
+#AvailabilityIcon
+{
+	background-image:url(IMG/MyBookButton.jpg);
+}
+
+#CommentIcon
+{
+	background-image:url(IMG/Comment.jpg);
+}
+
+#AvailabilityColumnContent
+{
+	height:100px;
+}
+
+#ConfirmColumn
+{
+	display:none;
+}
+
+#ConfirmIcon
+{
+	background-image:url(IMG/Submit.jpg);
+}
+
+#NewCommentIcon
+{
+	background-image:url(IMG/NewComment.jpg);
+}
+
+#NewCommentForm
+{
+	display:none;
+}

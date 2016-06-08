@@ -1,0 +1,103 @@
+.LargerPageCover
+{
+	width:100%;
+	height:600px;
+}
+
+.PersonalPageCoverContent
+{
+	margin: auto;
+
+	width:100%;
+	height:300px;
+
+	background-color: #FFFFFF;
+
+	opacity: 0.6;
+}
+
+.UserName
+{
+	margin: auto;
+
+	width:800px;
+	height:150px;
+}
+
+#UserNameText
+{
+    color:#000000;
+    font-size:50px;
+}
+
+#UserIDText
+{
+    color:#000000;
+    font-size:30px;
+}
+
+.UserInfo
+{
+	margin: auto;
+
+	width:800px;
+	height:150px;
+}
+
+.UserInfoText
+{
+    color:#000000;
+    font-size:27px;
+}
+
+#MyBookButtonIMG
+{
+	background-image:url(IMG/MyBookButton.jpg);
+}
+
+#BorrowedBookButtonIMG
+{
+	background-image:url(IMG/BorrowedBookButton.jpg);
+}
+
+#ChangePasswordIcon
+{
+	background-image:url(IMG/Register.jpg);
+}
+
+#CheckApplyIcon
+{
+	background-image:url(IMG/apply.png);
+}
+
+#MyBookShown
+{
+	display: none;
+}
+
+#BorrowedBookShown
+{
+	display: none;
+}
+
+.SubmitIconGray
+{
+	margin: auto;
+	
+	width:75px;
+	height:75px;
+
+	background-size: 100% 100%;
+
+	background-image:url(IMG/SubmitGray.jpg);
+}
+
+#ChangePasswordForm
+{
+	display: none;
+}
+
+#BookType
+{
+	color:#46A3FF;
+}

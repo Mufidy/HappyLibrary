@@ -1,0 +1,21 @@
+#TeacherCover
+{
+    background-image:url(IMG/BG06.jpg);
+}
+
+#TeacherIcon
+{
+    background-image:url(IMG/User.jpg);
+}
+
+.SubmitIconGray
+{
+    margin: auto;
+    
+    width:75px;
+    height:75px;
+
+    background-size: 100% 100%;
+
+    background-image:url(IMG/SubmitGray.jpg);
+}
